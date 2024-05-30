@@ -10,13 +10,12 @@ body {
 
 header {
 	background-color: white;
-	color: black;
-	height: 500px;
-}
+	color: black;}
 
 footer {
 	background-color: black;
 	color: white;
+	position: fixed;
 }
 
 /*LAYOUT CLASSES*/
