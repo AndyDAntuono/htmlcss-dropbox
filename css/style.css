@@ -4,3 +4,61 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: white;
+	color: black;
+}
+
+/*LAYOUT CLASSES*/
+
+.h-container {
+	width: 100vw;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.h-content-left {
+	width: 50%;
+	display: inline-block;
+	background-color: orange;
+	border: 1px solid black
+}
+
+.h-content-right {
+	width: 50%;
+	display: inline-block;
+	background-color: orange;
+	border: 1px solid black
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+/*CONTENT*/
+
+
+/*SPECIFC STYLING SELECTOR AND CLASSES*/
+
+.hcl-ul {
+	list-style: none;
+	display: inline-block;
+}
+
+.hcl-ul li {
+	display: inline-block;
+    margin: 0 10px;
+}
