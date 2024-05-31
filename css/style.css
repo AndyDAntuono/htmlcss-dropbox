@@ -111,9 +111,99 @@ footer {
 .mcb-svg-side {
 	width: 50%;
 	height: 50%;
-	background-color: blueviolet;
 	border: 1px solid black;
 	display: inline-block;
+}
+
+.green-box {
+	background-color: rgba(209,233,205,255);
+}
+
+.svg-design-left {
+	background-color: rgba(93,44,100,255);
+	filter: invert(100%);
+	width: 90%;
+	height: 90%;
+	margin-top: 15px;
+	margin-left: 15px;
+	background-image: url(../img/designit.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.svg-asu {
+	background-color: rgba(158,247,212,255);
+	filter: invert(100%);
+	background-image: url(../img/arizona_state_university.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.svg-florida {
+	background-color: rgba(255,108,49,255);
+	filter: invert(100%);
+	background-image: url(../img/university_of_florida.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.svg-topps {
+	background-color: rgba(0,227,227,255);
+	filter: invert(100%);
+	background-image: url(../img/topps.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mcb-svg-center {
+	width: 100%;
+	height: 100%;
+	background-color: lightgray;
+	background-image: url(../img/designit.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position-y: 30px;
+	background-position-x: center ;
+}
+
+.svg-wbr {
+	background-color: rgba(42,255,224,255);
+	filter: invert(100%);
+	background-image: url(../img/world_bicycle_relief.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.svg-heartcorp {
+	background-color: rgba(75,47,24,255);
+	filter: invert(100%);
+	background-image: url(../img/hearst_corp.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.svg-loneyplanet {
+	background-color: rgba(242,219,126,255);
+	filter: invert(100%);
+	background-image: url(../img/lonely_planet.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.svg-cco {
+	background-color: rgba(0,39,207,255);
+	filter: invert(100%);
+	background-image: url(../img/clear_channel.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .f-container {
@@ -121,6 +211,11 @@ footer {
 	height: 600px;
 	width: 100%;
 	background-color: hotpink;
+}
+
+
+.mcb-exp img {
+	filter: invert(100%);
 }
 
 .f-content-top {
