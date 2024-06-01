@@ -160,15 +160,43 @@ footer {
 }
 
 .mcb-svg-center {
-	width: 100%;
-	height: 100%;
+	width: 640px;
+	height: 640px;
 	background-color: lightgray;
 	background-image: url(../img/designit.svg);
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position-y: 30px;
-	background-position-x: center ;
+	background-position-x: center;
+	position: relative;
 }
+
+.quote-hr {
+	position: absolute;
+	top: 30%;
+	width: 10%;
+	margin: auto 0;
+	left: 60px;
+}
+
+.quote {
+	width: 80%;
+	background-color: blueviolet;
+	position: absolute;
+	left: 60px;
+	top: 40%;
+	font-size: 15px;
+}
+
+.quote-author {
+	width: 80%;
+	background-color: blueviolet;
+	position: absolute;
+	left: 60px;
+	bottom: 40%;
+	font-size: 15px;
+}
+
 
 .svg-wbr {
 	background-color: rgba(42,255,224,255);
@@ -206,16 +234,24 @@ footer {
 	background-position: center;
 }
 
+.dropbox-exp {
+	width: 100vw;
+	height: 500px;
+	background-color: blue;
+}
+
+.dropbox-faq {
+	height: 500px;
+	background-color: blueviolet;
+}
+
+
+
 .f-container {
 	max-width: 1920px;
 	height: 600px;
 	width: 100%;
 	background-color: hotpink;
-}
-
-
-.mcb-exp img {
-	filter: invert(100%);
 }
 
 .f-content-top {
