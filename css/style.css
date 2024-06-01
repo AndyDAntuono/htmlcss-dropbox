@@ -20,7 +20,7 @@ footer {
 
 .h-container {
 	max-width: 1920px;
-	height: 50px;
+	height: 70px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -71,7 +71,7 @@ footer {
 .logo {
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 .m-container-top {
@@ -83,16 +83,31 @@ footer {
 .upper-mct {
 	height: 200px;
 	background-color: pink;
+	font-size: 40px;
+	margin-bottom: 40px;
 }
 
 .lower-mct {
-	height: 500px;
 	background-color: greenyellow;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.l-mct-left i {
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+.l-mct-left img {
+	width: 70%;
+	height: 70%;
+	float: right;
 }
 
 .m-container-middle {
 	max-width: 1920px;
 	background-color: burlywood;
+	margin-top: 120px;
 }
 
 .m-container-bottom {
@@ -269,8 +284,46 @@ footer {
 .hcl-ul {
 	list-style: none;
 	display: inline-block;
+	margin-left: 20px;
 }
 
 .hcl-ul li {
 	display: inline-block;
+	margin-bottom: 20px;
 }
+
+.hcr-ul {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	float: right;
+	margin-top: 10px;
+}
+
+.hcr-ul li {
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.blue-li {
+	color: white;
+	height: 30px;
+	width: 70px;
+	background-color: blue;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#blue-button {
+	background-color: rgba(0,97,255,255);
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 320px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
