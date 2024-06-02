@@ -114,6 +114,10 @@ footer {
 	margin-bottom: 40px;
 }
 
+.mcm-radio-buttons {
+	margin-bottom: 40px;
+}
+ 
 .radio-not-selected {
 	display: inline-block;
 	margin-left: 10px;
@@ -141,6 +145,9 @@ footer {
 
 .pp-head {
 	border-bottom: 1px solid black;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .pp-inner-box {
@@ -148,6 +155,30 @@ footer {
 	height: 955px;
 	background-color:lightskyblue;
 	margin: auto;
+}
+
+.pp-type {
+	margin-bottom: 25px;
+}
+
+.pp-price {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.pp-tag {
+	margin-bottom: 30px;
+	opacity: 0.5;
+}
+
+.pp-hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 40px;
+}
+
+.pp-recap {
+	margin-bottom: 30px;
 }
 
 .m-container-bottom {
@@ -370,5 +401,12 @@ footer {
 
 .pp-ul {
 	list-style: none;
-	margin-left: 5px;
+}
+
+.pp-ul li {
+	margin-bottom: 20px;
+}
+
+.fa-check {
+	color:rgba(78,135,255,255);
 }
