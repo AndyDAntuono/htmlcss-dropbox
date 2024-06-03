@@ -14,12 +14,13 @@ header {
 
 footer {
 	color: white;
+	background-color: black;
 }
 
 /*LAYOUT CLASSES*/
 
 .h-container {
-	max-width: 1920px;
+	width: 100%;
 	height: 70px;
 	display: flex;
 	flex-wrap: wrap;
@@ -48,39 +49,36 @@ footer {
 
 .h-content-left {
 	width: 50%;
-	display: inline-block;
-	background-color: orange;
-	border: 1px solid black
+	display: flex;
 }
 
 .h-content-right {
 	width: 50%;
 	display: inline-block;
-	background-color: orange;
-	border: 1px solid black
 }
 
 .logo {
-	display: inline-block;
-	margin-top: 10px;
-	margin-left: 20px;
+	height: 70px;
+	width: 10%;
+	background-image: url(../img/logo-small.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-y: 26px;
 }
 
 .m-container-top {
 	max-width: 1920px;
 	height: 700px;
-	background-color: cyan;
+	background-color: rgba(180,208,231,255);
 }
 
 .upper-mct {
-	height: 200px;
-	background-color: pink;
 	font-size: 40px;
 	margin-bottom: 40px;
+	margin-top: 100px;
 }
 
 .lower-mct {
-	background-color: greenyellow;
 	margin-bottom: 40px;
 	font-size: 20px;
 }
@@ -98,8 +96,7 @@ footer {
 
 .m-container-middle {
 	max-width: 1920px;
-	background-color: burlywood;
-	margin-top: 120px;
+	margin-top: 200px;
 }
 
 .mcm-h1 {
@@ -109,10 +106,19 @@ footer {
 .mcm-radio-buttons {
 	margin-bottom: 40px;
 }
- 
+
+.radio-selected {
+	margin-top: 10px;
+	border: 3px solid blue;
+	width: 14px;
+	height: 14px;
+	background-color: white;
+	appearance: none;
+	border-radius: 50%;
+}
+
 .radio-not-selected {
 	display: inline-block;
-	margin-left: 10px;
 }
 
 .billing {
@@ -122,17 +128,18 @@ footer {
 .payment-plans {
 	width: 100%;
 	height: 1000px;
-	background-color: darkred;
 	display: flex;
 }
 
 .pp-box {
-	width: calc(100% / 3);
+	width: 32%;
 	height: 1000px;
 	border: 1px solid black;
-	background-color: darkseagreen;
-	display: inline-block;
-	margin-right: 20px;
+}
+
+.pp-box-center {
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .pp-head {
@@ -145,7 +152,6 @@ footer {
 .pp-inner-box {
 	width: 320px;
 	height: 930px;
-	background-color:lightskyblue;
 	margin: auto;
 }
 
@@ -180,10 +186,9 @@ footer {
 
 .sales-office {
 	width: 100%;
-	height: 500px;
+	height: 250px;
 	margin-top: 50px;
-	margin-bottom: 200px;
-	background-color: rgb(140, 168, 196);
+	margin-bottom: 150px;
 	border: 1px solid black;
 }
 
@@ -198,20 +203,17 @@ footer {
 	width: 90%;
 	height: 470px;
 	margin: auto;
-	background-color: darksalmon;
 	position: relative;
 }
 
 
 .so-content-left {
-	border: 1px solid black;
 	width: 65%;
 	position: absolute;
 	top: 20px;
 }
 
 .so-content-right {
-	border: 1px solid black;
 	width: 32%;
 	position: absolute;
 	top: 20px;
@@ -228,26 +230,22 @@ footer {
 	height: 700px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	background-color: rgb(255, 30, 169);
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .dp-left {
 	width: 60%;
-	border: 1px black;
 	height: 700px;
-	background-color: lawngreen;
 	background-image: url(../img/partner.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	margin-right: auto;
 }
 
 .dp-right {
-	border: 1px black;
-	background-color: chocolate;
 	height: 700px;
-	width: 441px;
+	width: 39%;
 }
 
 .dp-right-content {
@@ -269,34 +267,28 @@ footer {
 	margin-top: 20px;
 }
 
-.dropbox-operations {
-	width: 100%;
-	height: 1050px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	background-color: dodgerblue;
-}
-
 .dropbox-operations-head {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .dropbox-operations-body {
-	border: 1px solid black;
 	width: 100%;
-	height: 100%;
-	background-color: darkgreen;
-	position: relative;
+	height: 822px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .d-o-b-content {
-	width: calc(99% / 3);
+	width: 30%;
 	height: 400px;
-	background-color: red;
-	position: relative;
 	display: inline-block;
 	margin-bottom: 20px;
+}
 
+.d-o-b-content-center {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .d-o-b-content-frame {
@@ -348,15 +340,12 @@ footer {
 .mcb-svg {
 	width: calc(100% / 3);
 	height: 640px;
-	background-color: yellow;
 	display: inline-block;
-	border: 1px solid black;
 }
 
 .mcb-svg-side {
 	width: 50%;
 	height: 50%;
-	border: 1px solid black;
 	display: inline-block;
 }
 
@@ -426,7 +415,6 @@ footer {
 
 .quote {
 	width: 80%;
-	background-color: blueviolet;
 	position: absolute;
 	left: 60px;
 	top: 40%;
@@ -435,7 +423,6 @@ footer {
 
 .quote-author {
 	width: 80%;
-	background-color: blueviolet;
 	position: absolute;
 	left: 60px;
 	bottom: 40%;
@@ -482,7 +469,7 @@ footer {
 .dropbox-exp {
 	width: 100%;
 	height: 500px;
-	background-color: blue;
+	background-color: rgba(180,208,231,255);
 }
 
 .dropbox-exp-content {
@@ -510,7 +497,6 @@ footer {
 	height: 20px;
 	width: 250px;
 	background-color: white;
-	border: 1px solid black;
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 25px;
@@ -520,7 +506,7 @@ footer {
 
 .dropbox-faq {
 	height: 250px;
-	background-color: blueviolet;
+	margin-bottom: 150px;
 }
 
 .dropbox-faq h1 {
@@ -546,16 +532,12 @@ footer {
 
 
 .f-container {
-	max-width: 1920px;
-	height: 410px;
 	width: 100%;
-	background-color: hotpink;
 	padding-top: 100px;
 }
 
 .f-content-top {
 	height: 210px;
-	background-color: darkolivegreen;
 }
 
 .fct-links {
@@ -577,7 +559,6 @@ footer {
 
 .f-content-bottom {
 	height: 100px;
-	background-color: darkgreen;
 }
 
 .f-content-bottom hr {
@@ -596,9 +577,11 @@ footer {
 /*SPECIFC STYLING SELECTOR AND CLASSES*/
 
 .hcl-ul {
+	width: 80%;
 	list-style: none;
 	display: inline-block;
 	margin-left: 20px;
+	margin-top: 26px;
 }
 
 .hcl-ul li {
@@ -609,8 +592,7 @@ footer {
 .hcr-ul {
 	list-style: none;
 	display: inline-block;
-	margin-left: 20px;
-	float: right;
+	margin-left: 270px;
 	margin-top: 10px;
 }
 

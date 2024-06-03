@@ -11,9 +11,7 @@
     <header>
         <div class="h-container">
             <div class="h-content-left">
-                <div class="logo">
-                    <img src="./img/logo-small.png" alt="">
-                </div>
+                <div class="logo"></div>
                 <ul class="hcl-ul">
                     <li>Perché Dropbox</li>
                     <li>Funzioni</li>
@@ -22,7 +20,7 @@
             </div>
             <div class="h-content-right">
                 <div class="hcr-ul">
-                    <ul class="hcl-ul">
+                    <ul class="hcr-ul">
                         <li>Supporto</li>
                         <li>Contatta l'ufficio vendite</li>
                         <li>Accedi</li>
@@ -63,13 +61,13 @@
                 <div class="col-60">
                     <div class="mcm-h1"><h1>Trova il piano business che fa per te</h1></div>
                     <div class="mcm-radio-buttons">
-                        <input type="radio" class="radio-selected">
+                        <input type="radio" class="radio-selected" name="picked" value="left">
                         <div class="billing monthly">Fatturazione mensile</div>
-                        <input type="radio" class="radio-not-selected">
+                        <input type="radio" class="radio-not-selected" name="picked" value="right">
                         <div class="billing annual">Fatturazione annuale</div>
                     </div>
                     <div class="payment-plans">
-                        <div class="pp-box">
+                        <div class="pp-box pp-box-left">
                             <div class="pp-single">
                                 <div class="pp-head"><i class="fa-solid fa-user"></i>Singolo</div>
                             </div>
@@ -93,7 +91,7 @@
                             </div>
                         </div>
 
-                        <div class="pp-box">
+                        <div class="pp-box pp-box-center">
                             <div class="pp-single">
                                 <div class="pp-head"><i class="fa-solid fa-users"></i>Team</div>
                             </div>
@@ -120,7 +118,7 @@
                             </div>
                         </div>
 
-                        <div class="pp-box">
+                        <div class="pp-box pp-box-right">
                             <div class="pp-single">
                                 <div class="pp-head"><i class="fa-solid fa-building"></i>Azienda</div>
                             </div>
@@ -168,46 +166,44 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dropbox-operations">
-                        <div class="dropbox-operations-head">
-                            <h1>Esegui più operazioni con Dropbox business</h1>
+                    <div class="dropbox-operations-head">
+                        <h1>Esegui più operazioni con Dropbox business</h1>
+                    </div>
+                    <div class="dropbox-operations-body">
+                        <div class="d-o-b-content d-o-b-content d-o-b-content-bottom-right">
+                            <div class="d-o-b-content-frame business-feature-switching-tools-pic"></div>
+                            <h2>Passa di meno di meno da uno strumento all'altro</h2>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                         </div>
-                        <div class="dropbox-operations-body">
-                            <div class="d-o-b-content">
-                                <div class="d-o-b-content-frame business-feature-switching-tools-pic"></div>
-                                <h2>Passa di meno di meno da uno strumento all'altro</h2>
-                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
-                            </div>
 
-                            <div class="d-o-b-content">
-                                <div class="d-o-b-content-frame business-feature-send-files-it-pic"></div>
-                                <h2>Passa di meno di meno da uno strumento all'altro</h2>
-                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
-                            </div>
+                        <div class="d-o-b-content d-o-b-content-center">
+                            <div class="d-o-b-content-frame business-feature-send-files-it-pic"></div>
+                            <h2>Passa di meno di meno da uno strumento all'altro</h2>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
 
-                            <div class="d-o-b-content">
-                                <div class="d-o-b-content-frame business-feature-coordinate-it-pic"></div>
-                                <h2>Passa di meno di meno da uno strumento all'altro</h2>
-                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
-                            </div>
+                        <div class="d-o-b-content d-o-b-content-top-right">
+                            <div class="d-o-b-content-frame business-feature-coordinate-it-pic"></div>
+                            <h2>Passa di meno di meno da uno strumento all'altro</h2>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
 
-                            <div class="d-o-b-content">
-                                <div class="d-o-b-content-frame business-feature-integrations-it-pic"></div>
-                                <h2>Passa di meno di meno da uno strumento all'altro</h2>
-                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
-                            </div>
+                        <div class="d-o-b-content d-o-b-content-bottom-left">
+                            <div class="d-o-b-content-frame business-feature-integrations-it-pic"></div>
+                            <h2>Passa di meno di meno da uno strumento all'altro</h2>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
 
-                            <div class="d-o-b-content">
-                                <div class="d-o-b-content-frame business-feature-multi-device-pic"></div>
-                                <h2>Passa di meno di meno da uno strumento all'altro</h2>
-                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
-                            </div>
+                        <div class="d-o-b-content d-o-b-content-center">
+                            <div class="d-o-b-content-frame business-feature-multi-device-pic"></div>
+                            <h2>Passa di meno di meno da uno strumento all'altro</h2>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                        </div>
 
-                            <div class="d-o-b-content ">
-                                <div class="d-o-b-content-frame business-feature-security-pic"></div>
-                                <h2>Passa di meno di meno da uno strumento all'altro</h2>
-                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
-                            </div>
+                        <div class="d-o-b-content d-o-b-content-bottom-right">
+                            <div class="d-o-b-content-frame business-feature-security-pic"></div>
+                            <h2>Passa di meno di meno da uno strumento all'altro</h2>
+                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea. modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                         </div>
                     </div>
                     <div class="dropbox-clients">
