@@ -40,14 +40,6 @@ footer {
 	margin: 0 auto;
 }
 
-.mcm-box {
-	width: 100%;
-	height: 500px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	background-color: dodgerblue;
-}
-
 .lower-mcb-top-content {
 	width: 500px;
 }
@@ -152,7 +144,7 @@ footer {
 
 .pp-inner-box {
 	width: 320px;
-	height: 955px;
+	height: 930px;
 	background-color:lightskyblue;
 	margin: auto;
 }
@@ -184,6 +176,173 @@ footer {
 .m-container-bottom {
 	width: 100%;
 	font-size: 0;
+}
+
+.sales-office {
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	background-color: rgb(140, 168, 196);
+	border: 1px solid black;
+}
+
+.so-head {
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+
+.so-box {
+	width: 90%;
+	height: 470px;
+	margin: auto;
+	background-color: darksalmon;
+	position: relative;
+}
+
+
+.so-content-left {
+	border: 1px solid black;
+	width: 65%;
+	position: absolute;
+	top: 20px;
+}
+
+.so-content-right {
+	border: 1px solid black;
+	width: 32%;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.so-b-contact {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.dropbox-partner {
+	width: 100%;
+	height: 700px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(255, 30, 169);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dp-left {
+	width: 60%;
+	border: 1px black;
+	height: 700px;
+	background-color: lawngreen;
+	background-image: url(../img/partner.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.dp-right {
+	border: 1px black;
+	background-color: chocolate;
+	height: 700px;
+	width: 441px;
+}
+
+.dp-right-content {
+	width: 80%;
+	margin: auto;
+}
+
+.dp-right-content h2 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.find-partner {
+	height: 30px;
+	width: 140px;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 20px;
+}
+
+.dropbox-operations {
+	width: 100%;
+	height: 1050px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: dodgerblue;
+}
+
+.dropbox-operations-head {
+	text-align: center;
+}
+
+.dropbox-operations-body {
+	border: 1px solid black;
+	width: 100%;
+	height: 100%;
+	background-color: darkgreen;
+	position: relative;
+}
+
+.d-o-b-content {
+	width: calc(99% / 3);
+	height: 400px;
+	background-color: red;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+
+}
+
+.d-o-b-content-frame {
+	width: 100%;
+	height: 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+
+.business-feature-switching-tools-pic {
+	background-image: url(../img/business-feature-switching-tools.png);
+}
+
+.business-feature-send-files-it-pic {
+	background-image: url(../img/business-feature-send-files-it.png);
+}
+
+.business-feature-coordinate-it-pic {
+	background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+.business-feature-integrations-it-pic {
+	background-image: url(../img/business-feature-integrations-it.png);
+}
+
+.business-feature-multi-device-pic {
+	background-image: url(../img/business-feature-multi-device.png);
+}
+
+.business-feature-security-pic {
+	background-image: url(../img/business-feature-security.png);
+}
+
+.d-o-b-content h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.dropbox-clients {
+	margin-top: 60px;
+}
+
+.dropbox-clients P {
+	margin-top: 60px;
+	margin-bottom: 100PX;
 }
 
 .mcb-svg {
@@ -321,33 +480,117 @@ footer {
 }
 
 .dropbox-exp {
-	width: 100vw;
+	width: 100%;
 	height: 500px;
 	background-color: blue;
 }
 
-.dropbox-faq {
+.dropbox-exp-content {
+	width: 100%;
 	height: 500px;
+	display: flex;
+}
+
+.dropbox-exp-content-left {
+	width: 60%;
+	height: 500px;
+}
+
+.dropbox-exp-content-right {
+	width: 30%;
+	height: 500px;
+}
+
+.dropbox-exp-h1 {
+	margin-top: 100px;
+	font-size: 25px;
+}
+
+.dropbox-exp-button {
+	height: 20px;
+	width: 250px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+.dropbox-faq {
+	height: 250px;
 	background-color: blueviolet;
 }
 
+.dropbox-faq h1 {
+	margin-top: 40px;
+}
+
+.question {
+	display: inline-block;
+}
+
+.faq-icon {
+	display: inline-block;
+}
+
+.fa-chevron-down {
+	margin-left: 560px;
+}
+
+.faq-hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 
 .f-container {
 	max-width: 1920px;
-	height: 600px;
+	height: 410px;
 	width: 100%;
 	background-color: hotpink;
+	padding-top: 100px;
 }
 
 .f-content-top {
-	height: 500px;
+	height: 210px;
 	background-color: darkolivegreen;
+}
+
+.fct-links {
+	display: inline-block;
+	margin-right: 110px;
+}
+
+.fct-links-head {
+	margin-bottom: 20px;
+}
+
+.fct-links-ul {
+	list-style: none;
+}
+
+.fct-links-ul li {
+	margin-bottom: 10px;
 }
 
 .f-content-bottom {
 	height: 100px;
 	background-color: darkgreen;
+}
+
+.f-content-bottom hr {
+	width: 10%;
+	margin-bottom: 50px;
+}
+
+.fa-earth-americas {
+	margin-right: 10px;
+}
+
+.fa-sort-up {
+	margin-left: 5px;
 }
 
 /*SPECIFC STYLING SELECTOR AND CLASSES*/
